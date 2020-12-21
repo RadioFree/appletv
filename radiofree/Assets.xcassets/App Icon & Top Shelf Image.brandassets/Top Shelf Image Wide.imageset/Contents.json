@@ -1,0 +1,28 @@
+{
+  "images" : [
+    {
+      "idiom" : "tv",
+      "filename" : "Design ohne Titel-28.png",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "tv",
+      "filename" : "Design ohne Titel-30.png",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "tv-marketing",
+      "filename" : "Design ohne Titel-29.png",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "tv-marketing",
+      "filename" : "Design ohne Titel-31.png",
+      "scale" : "2x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}
