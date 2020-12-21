@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82690224E457AC61BB8B4558 /* Pods_radiofree.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54CF64C03C9A9F86063C4E38 /* Pods_radiofree.framework */; };
+		8B02DAEA23BDF48C00FB8DA3 /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B02DAE923BDF48C00FB8DA3 /* UIButtonExtension.swift */; };
+		8B02DAEC23BDF7B900FB8DA3 /* UILabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B02DAEB23BDF7B900FB8DA3 /* UILabelExtension.swift */; };
+		8B02DAFB23BDFEB400FB8DA3 /* SourceSansPro-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B02DAEE23BDFEB300FB8DA3 /* SourceSansPro-BoldItalic.ttf */; };
+		8B02DAFC23BDFEB400FB8DA3 /* SourceSansPro-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B02DAEF23BDFEB300FB8DA3 /* SourceSansPro-LightItalic.ttf */; };
+		8B02DAFD23BDFEB400FB8DA3 /* SourceSansPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B02DAF023BDFEB300FB8DA3 /* SourceSansPro-Regular.ttf */; };
+		8B02DAFE23BDFEB400FB8DA3 /* SourceSansPro-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B02DAF123BDFEB300FB8DA3 /* SourceSansPro-Italic.ttf */; };
+		8B02DAFF23BDFEB400FB8DA3 /* SourceSansPro-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B02DAF223BDFEB300FB8DA3 /* SourceSansPro-SemiBoldItalic.ttf */; };
+		8B02DB0023BDFEB400FB8DA3 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8B02DAF323BDFEB300FB8DA3 /* OFL.txt */; };
+		8B02DB0123BDFEB400FB8DA3 /* SourceSansPro-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B02DAF423BDFEB300FB8DA3 /* SourceSansPro-BlackItalic.ttf */; };
+		8B02DB0223BDFEB400FB8DA3 /* SourceSansPro-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B02DAF523BDFEB300FB8DA3 /* SourceSansPro-Black.ttf */; };
+		8B02DB0323BDFEB400FB8DA3 /* SourceSansPro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B02DAF623BDFEB300FB8DA3 /* SourceSansPro-Bold.ttf */; };
+		8B02DB0423BDFEB400FB8DA3 /* SourceSansPro-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B02DAF723BDFEB300FB8DA3 /* SourceSansPro-ExtraLight.ttf */; };
+		8B02DB0523BDFEB400FB8DA3 /* SourceSansPro-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B02DAF823BDFEB300FB8DA3 /* SourceSansPro-ExtraLightItalic.ttf */; };
+		8B02DB0623BDFEB400FB8DA3 /* SourceSansPro-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B02DAF923BDFEB400FB8DA3 /* SourceSansPro-Light.ttf */; };
+		8B02DB0723BDFEB400FB8DA3 /* SourceSansPro-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B02DAFA23BDFEB400FB8DA3 /* SourceSansPro-SemiBold.ttf */; };
+		8B02DB1323BDFEE600FB8DA3 /* OpenSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B02DB0823BDFEE500FB8DA3 /* OpenSans-SemiBoldItalic.ttf */; };
+		8B02DB1423BDFEE600FB8DA3 /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B02DB0923BDFEE500FB8DA3 /* OpenSans-ExtraBoldItalic.ttf */; };
+		8B02DB1523BDFEE600FB8DA3 /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B02DB0A23BDFEE500FB8DA3 /* OpenSans-BoldItalic.ttf */; };
+		8B02DB1623BDFEE600FB8DA3 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8B02DB0B23BDFEE500FB8DA3 /* LICENSE.txt */; };
+		8B02DB1723BDFEE600FB8DA3 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B02DB0C23BDFEE500FB8DA3 /* OpenSans-Bold.ttf */; };
+		8B02DB1823BDFEE600FB8DA3 /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B02DB0D23BDFEE500FB8DA3 /* OpenSans-Italic.ttf */; };
+		8B02DB1923BDFEE600FB8DA3 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B02DB0E23BDFEE500FB8DA3 /* OpenSans-ExtraBold.ttf */; };
+		8B02DB1A23BDFEE600FB8DA3 /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B02DB0F23BDFEE500FB8DA3 /* OpenSans-LightItalic.ttf */; };
+		8B02DB1B23BDFEE600FB8DA3 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B02DB1023BDFEE500FB8DA3 /* OpenSans-Light.ttf */; };
+		8B02DB1C23BDFEE600FB8DA3 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B02DB1123BDFEE500FB8DA3 /* OpenSans-Regular.ttf */; };
+		8B02DB1D23BDFEE600FB8DA3 /* OpenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B02DB1223BDFEE600FB8DA3 /* OpenSans-SemiBold.ttf */; };
+		8B02DB1F23BE175B00FB8DA3 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B02DB1E23BE175B00FB8DA3 /* StringExtension.swift */; };
+		8B25CE8323BCFD8F0013EEFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B25CE8223BCFD8F0013EEFA /* AppDelegate.swift */; };
+		8B25CE8523BCFD8F0013EEFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B25CE8423BCFD8F0013EEFA /* ViewController.swift */; };
+		8B25CE8823BCFD8F0013EEFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B25CE8623BCFD8F0013EEFA /* Main.storyboard */; };
+		8B25CE8A23BCFD900013EEFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B25CE8923BCFD900013EEFA /* Assets.xcassets */; };
+		8B25CE9423BCFEAC0013EEFA /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B25CE9323BCFEAC0013EEFA /* UIViewExtension.swift */; };
+		8B25CE9823BCFFA90013EEFA /* Downloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B25CE9723BCFFA90013EEFA /* Downloader.swift */; };
+		8B25CE9A23BCFFB50013EEFA /* NewsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B25CE9923BCFFB50013EEFA /* NewsItem.swift */; };
+		8B25CE9C23BD04280013EEFA /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B25CE9B23BD04280013EEFA /* Alamofire.framework */; };
+		8B25CE9E23BD06940013EEFA /* JSONExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B25CE9D23BD06940013EEFA /* JSONExtension.swift */; };
+		8BBB7EF023C231EB001E8CAD /* SwiftGifOrigin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BBB7EEF23C231EB001E8CAD /* SwiftGifOrigin.framework */; };
+		8BBB7EF223C23872001E8CAD /* loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8BBB7EF123C23872001E8CAD /* loading.gif */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		54CF64C03C9A9F86063C4E38 /* Pods_radiofree.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_radiofree.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B02DAE923BDF48C00FB8DA3 /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
+		8B02DAEB23BDF7B900FB8DA3 /* UILabelExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelExtension.swift; sourceTree = "<group>"; };
+		8B02DAEE23BDFEB300FB8DA3 /* SourceSansPro-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-BoldItalic.ttf"; sourceTree = "<group>"; };
+		8B02DAEF23BDFEB300FB8DA3 /* SourceSansPro-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-LightItalic.ttf"; sourceTree = "<group>"; };
+		8B02DAF023BDFEB300FB8DA3 /* SourceSansPro-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Regular.ttf"; sourceTree = "<group>"; };
+		8B02DAF123BDFEB300FB8DA3 /* SourceSansPro-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Italic.ttf"; sourceTree = "<group>"; };
+		8B02DAF223BDFEB300FB8DA3 /* SourceSansPro-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		8B02DAF323BDFEB300FB8DA3 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		8B02DAF423BDFEB300FB8DA3 /* SourceSansPro-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-BlackItalic.ttf"; sourceTree = "<group>"; };
+		8B02DAF523BDFEB300FB8DA3 /* SourceSansPro-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Black.ttf"; sourceTree = "<group>"; };
+		8B02DAF623BDFEB300FB8DA3 /* SourceSansPro-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Bold.ttf"; sourceTree = "<group>"; };
+		8B02DAF723BDFEB300FB8DA3 /* SourceSansPro-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-ExtraLight.ttf"; sourceTree = "<group>"; };
+		8B02DAF823BDFEB300FB8DA3 /* SourceSansPro-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		8B02DAF923BDFEB400FB8DA3 /* SourceSansPro-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Light.ttf"; sourceTree = "<group>"; };
+		8B02DAFA23BDFEB400FB8DA3 /* SourceSansPro-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-SemiBold.ttf"; sourceTree = "<group>"; };
+		8B02DB0823BDFEE500FB8DA3 /* OpenSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		8B02DB0923BDFEE500FB8DA3 /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		8B02DB0A23BDFEE500FB8DA3 /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		8B02DB0B23BDFEE500FB8DA3 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		8B02DB0C23BDFEE500FB8DA3 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		8B02DB0D23BDFEE500FB8DA3 /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		8B02DB0E23BDFEE500FB8DA3 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		8B02DB0F23BDFEE500FB8DA3 /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		8B02DB1023BDFEE500FB8DA3 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		8B02DB1123BDFEE500FB8DA3 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		8B02DB1223BDFEE600FB8DA3 /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		8B02DB1E23BE175B00FB8DA3 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		8B25CE7F23BCFD8F0013EEFA /* radiofree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = radiofree.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B25CE8223BCFD8F0013EEFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8B25CE8423BCFD8F0013EEFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8B25CE8723BCFD8F0013EEFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B25CE8923BCFD900013EEFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B25CE8B23BCFD900013EEFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B25CE9323BCFEAC0013EEFA /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		8B25CE9723BCFFA90013EEFA /* Downloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Downloader.swift; sourceTree = "<group>"; };
+		8B25CE9923BCFFB50013EEFA /* NewsItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsItem.swift; sourceTree = "<group>"; };
+		8B25CE9B23BD04280013EEFA /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B25CE9D23BD06940013EEFA /* JSONExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONExtension.swift; sourceTree = "<group>"; };
+		8B72A7B623C09A410035C147 /* SwiftGifOrigin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftGifOrigin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BBB7EEF23C231EB001E8CAD /* SwiftGifOrigin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftGifOrigin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BBB7EF123C23872001E8CAD /* loading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading.gif; sourceTree = "<group>"; };
+		B3344F03B30F6EE805EEFE9C /* Pods-radiofree.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-radiofree.debug.xcconfig"; path = "Target Support Files/Pods-radiofree/Pods-radiofree.debug.xcconfig"; sourceTree = "<group>"; };
+		BD890F595507D20DD82FB7A7 /* Pods-radiofree.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-radiofree.release.xcconfig"; path = "Target Support Files/Pods-radiofree/Pods-radiofree.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B25CE7C23BCFD8F0013EEFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BBB7EF023C231EB001E8CAD /* SwiftGifOrigin.framework in Frameworks */,
+				8B25CE9C23BD04280013EEFA /* Alamofire.framework in Frameworks */,
+				82690224E457AC61BB8B4558 /* Pods_radiofree.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43FC97DA62FDF0DCD7A70D89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BBB7EEF23C231EB001E8CAD /* SwiftGifOrigin.framework */,
+				8B72A7B623C09A410035C147 /* SwiftGifOrigin.framework */,
+				8B25CE9B23BD04280013EEFA /* Alamofire.framework */,
+				54CF64C03C9A9F86063C4E38 /* Pods_radiofree.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		48AEE95DA4CB06966F54BC17 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3344F03B30F6EE805EEFE9C /* Pods-radiofree.debug.xcconfig */,
+				BD890F595507D20DD82FB7A7 /* Pods-radiofree.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8B02DAED23BDFE8600FB8DA3 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8B02DAF323BDFEB300FB8DA3 /* OFL.txt */,
+				8B02DAF523BDFEB300FB8DA3 /* SourceSansPro-Black.ttf */,
+				8B02DAF423BDFEB300FB8DA3 /* SourceSansPro-BlackItalic.ttf */,
+				8B02DAF623BDFEB300FB8DA3 /* SourceSansPro-Bold.ttf */,
+				8B02DAEE23BDFEB300FB8DA3 /* SourceSansPro-BoldItalic.ttf */,
+				8B02DAF723BDFEB300FB8DA3 /* SourceSansPro-ExtraLight.ttf */,
+				8B02DAF823BDFEB300FB8DA3 /* SourceSansPro-ExtraLightItalic.ttf */,
+				8B02DAF123BDFEB300FB8DA3 /* SourceSansPro-Italic.ttf */,
+				8B02DB0B23BDFEE500FB8DA3 /* LICENSE.txt */,
+				8B02DB0C23BDFEE500FB8DA3 /* OpenSans-Bold.ttf */,
+				8B02DB0A23BDFEE500FB8DA3 /* OpenSans-BoldItalic.ttf */,
+				8B02DB0E23BDFEE500FB8DA3 /* OpenSans-ExtraBold.ttf */,
+				8B02DB0923BDFEE500FB8DA3 /* OpenSans-ExtraBoldItalic.ttf */,
+				8B02DB0D23BDFEE500FB8DA3 /* OpenSans-Italic.ttf */,
+				8B02DB1023BDFEE500FB8DA3 /* OpenSans-Light.ttf */,
+				8B02DB0F23BDFEE500FB8DA3 /* OpenSans-LightItalic.ttf */,
+				8B02DB1123BDFEE500FB8DA3 /* OpenSans-Regular.ttf */,
+				8B02DB1223BDFEE600FB8DA3 /* OpenSans-SemiBold.ttf */,
+				8B02DB0823BDFEE500FB8DA3 /* OpenSans-SemiBoldItalic.ttf */,
+				8B02DAF923BDFEB400FB8DA3 /* SourceSansPro-Light.ttf */,
+				8B02DAEF23BDFEB300FB8DA3 /* SourceSansPro-LightItalic.ttf */,
+				8B02DAF023BDFEB300FB8DA3 /* SourceSansPro-Regular.ttf */,
+				8B02DAFA23BDFEB400FB8DA3 /* SourceSansPro-SemiBold.ttf */,
+				8B02DAF223BDFEB300FB8DA3 /* SourceSansPro-SemiBoldItalic.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		8B25CE7623BCFD8E0013EEFA = {
+			isa = PBXGroup;
+			children = (
+				8B25CE8123BCFD8F0013EEFA /* radiofree */,
+				8B25CE8023BCFD8F0013EEFA /* Products */,
+				48AEE95DA4CB06966F54BC17 /* Pods */,
+				43FC97DA62FDF0DCD7A70D89 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8B25CE8023BCFD8F0013EEFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B25CE7F23BCFD8F0013EEFA /* radiofree.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B25CE8123BCFD8F0013EEFA /* radiofree */ = {
+			isa = PBXGroup;
+			children = (
+				8B02DAED23BDFE8600FB8DA3 /* fonts */,
+				8B25CE9623BCFF970013EEFA /* Data */,
+				8B25CE9123BCFDA50013EEFA /* Extensions */,
+				8B25CE8223BCFD8F0013EEFA /* AppDelegate.swift */,
+				8BBB7EF123C23872001E8CAD /* loading.gif */,
+				8B25CE8423BCFD8F0013EEFA /* ViewController.swift */,
+				8B25CE8623BCFD8F0013EEFA /* Main.storyboard */,
+				8B25CE8923BCFD900013EEFA /* Assets.xcassets */,
+				8B25CE8B23BCFD900013EEFA /* Info.plist */,
+			);
+			path = radiofree;
+			sourceTree = "<group>";
+		};
+		8B25CE9123BCFDA50013EEFA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8B25CE9223BCFDAE0013EEFA /* New Group */,
+				8B25CE9323BCFEAC0013EEFA /* UIViewExtension.swift */,
+				8B25CE9D23BD06940013EEFA /* JSONExtension.swift */,
+				8B02DAE923BDF48C00FB8DA3 /* UIButtonExtension.swift */,
+				8B02DAEB23BDF7B900FB8DA3 /* UILabelExtension.swift */,
+				8B02DB1E23BE175B00FB8DA3 /* StringExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8B25CE9223BCFDAE0013EEFA /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		8B25CE9623BCFF970013EEFA /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				8B25CE9723BCFFA90013EEFA /* Downloader.swift */,
+				8B25CE9923BCFFB50013EEFA /* NewsItem.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B25CE7E23BCFD8F0013EEFA /* radiofree */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B25CE8E23BCFD900013EEFA /* Build configuration list for PBXNativeTarget "radiofree" */;
+			buildPhases = (
+				CE898522C4F082DC2EBF444E /* [CP] Check Pods Manifest.lock */,
+				8B25CE7B23BCFD8F0013EEFA /* Sources */,
+				8B25CE7C23BCFD8F0013EEFA /* Frameworks */,
+				8B25CE7D23BCFD8F0013EEFA /* Resources */,
+				4D27544F5A3975F3BB48A840 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = radiofree;
+			productName = radiofree;
+			productReference = 8B25CE7F23BCFD8F0013EEFA /* radiofree.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B25CE7723BCFD8E0013EEFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Severin Kämpfer";
+				TargetAttributes = {
+					8B25CE7E23BCFD8F0013EEFA = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 8B25CE7A23BCFD8E0013EEFA /* Build configuration list for PBXProject "radiofree" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B25CE7623BCFD8E0013EEFA;
+			productRefGroup = 8B25CE8023BCFD8F0013EEFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B25CE7E23BCFD8F0013EEFA /* radiofree */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B25CE7D23BCFD8F0013EEFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B02DB1323BDFEE600FB8DA3 /* OpenSans-SemiBoldItalic.ttf in Resources */,
+				8B02DB1A23BDFEE600FB8DA3 /* OpenSans-LightItalic.ttf in Resources */,
+				8B02DB1923BDFEE600FB8DA3 /* OpenSans-ExtraBold.ttf in Resources */,
+				8B02DB1423BDFEE600FB8DA3 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+				8B02DB0423BDFEB400FB8DA3 /* SourceSansPro-ExtraLight.ttf in Resources */,
+				8B02DB0123BDFEB400FB8DA3 /* SourceSansPro-BlackItalic.ttf in Resources */,
+				8B02DB1D23BDFEE600FB8DA3 /* OpenSans-SemiBold.ttf in Resources */,
+				8B02DB1623BDFEE600FB8DA3 /* LICENSE.txt in Resources */,
+				8B02DAFF23BDFEB400FB8DA3 /* SourceSansPro-SemiBoldItalic.ttf in Resources */,
+				8B02DB1823BDFEE600FB8DA3 /* OpenSans-Italic.ttf in Resources */,
+				8B02DB0523BDFEB400FB8DA3 /* SourceSansPro-ExtraLightItalic.ttf in Resources */,
+				8B02DB1523BDFEE600FB8DA3 /* OpenSans-BoldItalic.ttf in Resources */,
+				8B02DAFD23BDFEB400FB8DA3 /* SourceSansPro-Regular.ttf in Resources */,
+				8B25CE8A23BCFD900013EEFA /* Assets.xcassets in Resources */,
+				8B02DAFB23BDFEB400FB8DA3 /* SourceSansPro-BoldItalic.ttf in Resources */,
+				8BBB7EF223C23872001E8CAD /* loading.gif in Resources */,
+				8B25CE8823BCFD8F0013EEFA /* Main.storyboard in Resources */,
+				8B02DAFE23BDFEB400FB8DA3 /* SourceSansPro-Italic.ttf in Resources */,
+				8B02DB0623BDFEB400FB8DA3 /* SourceSansPro-Light.ttf in Resources */,
+				8B02DB0023BDFEB400FB8DA3 /* OFL.txt in Resources */,
+				8B02DB1B23BDFEE600FB8DA3 /* OpenSans-Light.ttf in Resources */,
+				8B02DB0223BDFEB400FB8DA3 /* SourceSansPro-Black.ttf in Resources */,
+				8B02DB1C23BDFEE600FB8DA3 /* OpenSans-Regular.ttf in Resources */,
+				8B02DB0723BDFEB400FB8DA3 /* SourceSansPro-SemiBold.ttf in Resources */,
+				8B02DB0323BDFEB400FB8DA3 /* SourceSansPro-Bold.ttf in Resources */,
+				8B02DB1723BDFEE600FB8DA3 /* OpenSans-Bold.ttf in Resources */,
+				8B02DAFC23BDFEB400FB8DA3 /* SourceSansPro-LightItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4D27544F5A3975F3BB48A840 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-radiofree/Pods-radiofree-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-radiofree/Pods-radiofree-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-radiofree/Pods-radiofree-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE898522C4F082DC2EBF444E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-radiofree-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B25CE7B23BCFD8F0013EEFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B25CE9423BCFEAC0013EEFA /* UIViewExtension.swift in Sources */,
+				8B25CE9E23BD06940013EEFA /* JSONExtension.swift in Sources */,
+				8B25CE9A23BCFFB50013EEFA /* NewsItem.swift in Sources */,
+				8B25CE8523BCFD8F0013EEFA /* ViewController.swift in Sources */,
+				8B02DAEC23BDF7B900FB8DA3 /* UILabelExtension.swift in Sources */,
+				8B02DB1F23BE175B00FB8DA3 /* StringExtension.swift in Sources */,
+				8B02DAEA23BDF48C00FB8DA3 /* UIButtonExtension.swift in Sources */,
+				8B25CE9823BCFFA90013EEFA /* Downloader.swift in Sources */,
+				8B25CE8323BCFD8F0013EEFA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8B25CE8623BCFD8F0013EEFA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B25CE8723BCFD8F0013EEFA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B25CE8C23BCFD900013EEFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 12.4;
+			};
+			name = Debug;
+		};
+		8B25CE8D23BCFD900013EEFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TVOS_DEPLOYMENT_TARGET = 12.4;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B25CE8F23BCFD900013EEFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3344F03B30F6EE805EEFE9C /* Pods-radiofree.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = V7RQF32FZF;
+				INFOPLIST_FILE = radiofree/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.radiofree.us.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = provision;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		8B25CE9023BCFD900013EEFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD890F595507D20DD82FB7A7 /* Pods-radiofree.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = V7RQF32FZF;
+				INFOPLIST_FILE = radiofree/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.radiofree.us.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = provision;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B25CE7A23BCFD8E0013EEFA /* Build configuration list for PBXProject "radiofree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B25CE8C23BCFD900013EEFA /* Debug */,
+				8B25CE8D23BCFD900013EEFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B25CE8E23BCFD900013EEFA /* Build configuration list for PBXNativeTarget "radiofree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B25CE8F23BCFD900013EEFA /* Debug */,
+				8B25CE9023BCFD900013EEFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B25CE7723BCFD8E0013EEFA /* Project object */;
+}
