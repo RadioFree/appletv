@@ -1,0 +1,6 @@
+framework module Pods_radiofree {
+  umbrella header "Pods-radiofree-umbrella.h"
+
+  export *
+  module * { export * }
+}
